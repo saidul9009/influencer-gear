@@ -10,10 +10,12 @@ body{
   font-family: 'Patrick Hand', cursive;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
+ 
 }
-.container{
-    margin-top: 100px;
+section{
+  margin-bottom: 100px;
 }
+
 h1{
   font-size:52px;
 }
@@ -83,6 +85,10 @@ h2{
   grid-column-gap:30px;
   grid-row-gap:30px;
 }
+.product_heading{
+  text-align: center;
+  padding-bottom: 50px;
+}
 .product{
   width:320px;
   height:460px;
@@ -103,6 +109,21 @@ h2{
 .fa-star.fill{
   color: #ffd700;
 }
-.unfill{
+.unfilled{
   color:#ffd700;
+}
+/*================================
+          Footer area
+=================================*/
+footer{
+  background-color: 
+  #0A0826;
+  height:200px;
+  width:100%;
+  padding-top:50px;
+}
+
+footer h2, p{
+  color:white;
+  text-align: center;
 }
