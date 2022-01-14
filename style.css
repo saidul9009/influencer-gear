@@ -11,23 +11,28 @@ body{
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-section{
-  margin-top: 20px;
+.container{
+    margin-top: 100px;
 }
 h1{
   font-size:52px;
 }
+h2{
+  color:#18191F;
+}
+
 /* ================================
           Header area
 =================================*/
 .header_top{
   display: flex;
   justify-content:space-between;
+ 
 }
 .header_heading p{
   color: #3A3A3A;
   margin-left: 100px;
-  margin-top: 40px;
+  
 }
 .navigation{
   margin-top:50px;
@@ -67,4 +72,37 @@ h1{
 .header_photo{
   width:100%;
   margin-left: 100px;
+}
+/*================================
+          Product-area
+=================================*/
+ .products{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-left: 100px;
+  grid-column-gap:30px;
+  grid-row-gap:30px;
+}
+.product{
+  width:320px;
+  height:460px;
+  padding-top:17px;
+  padding-left: 15px;
+  padding-bottom: 17px;
+  border-radius: 5px;
+  box-shadow: 3px 2px 20px 8px #e7e7e7;
+}
+.product_details p{
+  color: #787885;
+  
+}
+.fas{
+  height: 16px;
+  width:16px;
+}
+.fa-star.fill{
+  color: #ffd700;
+}
+.unfill{
+  color:#ffd700;
 }
