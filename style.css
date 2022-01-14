@@ -1,0 +1,70 @@
+/* ================================
+          Fonts
+=================================*/
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Patrick+Hand&family=Poppins:wght@500&family=Roboto&display=swap');
+/* ================================
+          Common css
+=================================*/
+body{
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin-top: 20px;
+}
+h1{
+  font-size:52px;
+}
+/* ================================
+          Header area
+=================================*/
+.header_top{
+  display: flex;
+  justify-content:space-between;
+}
+.header_heading p{
+  color: #3A3A3A;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.navigation{
+  margin-top:50px;
+  margin-right:80px;
+}
+.navigation ul{
+  list-style-type:none;
+}
+.navigation ul li{
+  display:inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.navigation ul li a{
+  text-decoration:none;
+}
+
+.header_area{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
+.header_details{
+  margin-left: 100px;
+}
+.button{
+  background-color: #E02C6D;
+  color:white;
+  padding:10px 20px;
+  border-radius:20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.fa-arrow-right{
+  margin-left:5px;
+ 
+}
+.header_photo{
+  width:100%;
+  margin-left: 100px;
+}
