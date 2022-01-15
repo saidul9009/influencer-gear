@@ -120,6 +120,20 @@ h2{
   color:#ffd700;
 }
 /*================================
+          Sub-Categories
+=================================*/
+.categories{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sub_products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+/*================================
           Footer area
 =================================*/
 footer{
